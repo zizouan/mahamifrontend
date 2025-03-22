@@ -1,0 +1,30 @@
+.notecard {
+    max-width: 600px;
+    margin:5px auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+.sucsess {
+    color: rgb(0, 255, 47);
+    background-color: rgba(134, 255, 123, 0.224);
+}
+.fail {
+    color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.025);
+}
+.hidden {
+    display: none;
+}
+.tasklist {
+    
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 5px;
+    padding: 10px;
+    display: grid;
+  
+    align-items: flex-start; /* prevents stretch */
+}
+
+.tasklist::-webkit-scrollbar {
+    display: none;
+  }

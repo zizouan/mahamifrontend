@@ -1,0 +1,22 @@
+
+.taskbox {      /* or use %, vh, etc. */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-x: auto;    /* prevent the parent from scrolling */
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+
+  }
+  .container {
+    display: flex;
+    height: 85vh;  
+  }
+  .taskbox::-webkit-scrollbar {
+    display: none;
+  }
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }

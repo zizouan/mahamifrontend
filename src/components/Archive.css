@@ -1,0 +1,56 @@
+.archive {
+    
+    display: flex;
+    flex-direction:column; /* Horizontal layout */
+    align-items: center;
+    gap: 10px; /* Space between boxes */
+    padding: 10px;
+    background: #19647E;
+    min-width: 250px; /* Set width for the task bar */
+    overflow-x: auto; /* Enable scrolling if too many tasks */
+    color: #FFC857;
+    margin: 10px;
+    border-radius: 10px;
+    border: 10px solid #19647E;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 30px;
+    width: 20%;
+}
+
+.task-box {
+    width: 80%;
+    height: fit-content;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: transform 0.2s;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    flex-direction: row-reverse; /* Image on the right */
+	direction: rtl;	
+    padding: 10px;
+}
+    .archive::-webkit-scrollbar {
+        display: none;
+      }
+i {
+    padding: 0px;
+    margin: 0px;
+    height: 15px;
+    display: inline;
+}
+.archivedlogo {
+    display: flex;
+    width: 40px;
+    gap: 5px;
+    cursor: pointer;
+}
+.archivedtext {
+    display: flex;
+    flex: 1;
+}

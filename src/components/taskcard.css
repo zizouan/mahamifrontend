@@ -1,0 +1,39 @@
+progressChange{
+    display: inline-block;
+}
+.progress {
+    background-color: rgb(0, 255, 128);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .taskCompleted {
+    box-shadow: 1px 1px 3px 1px rgb(0, 255, 128);
+  }
+  .taskNotCompleted {
+    box-shadow: 1px 1px 3px 1px rgb(255, 17, 0);
+  }
+
+  .taskgrid {
+    height: auto; /* auto adjusts to content */
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin: 0.5rem;
+    max-width: 300px; /* optional, for layout control */
+    box-sizing: border-box;
+    background-color: white;
+  }
+  .tasktext{
+    flex-direction: row-reverse; /* Image on the right */
+    direction: rtl;
+    justify-content: flex-end;
+    padding: 10px 5px;
+  }
+  .cardheader {
+    height: 20px;
+  }
+  .bi-archive {
+    cursor: pointer;
+  }
