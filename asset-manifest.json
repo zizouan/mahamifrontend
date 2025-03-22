@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.516b60bb.css",
-    "main.js": "/static/js/main.23dbcd15.js",
-    "static/media/Logo.png": "/static/media/Logo.53514a68dc3d6ff1e339.png",
-    "index.html": "/index.html",
-    "main.516b60bb.css.map": "/static/css/main.516b60bb.css.map",
-    "main.23dbcd15.js.map": "/static/js/main.23dbcd15.js.map"
+    "main.css": "/mahamifrontend/static/css/main.516b60bb.css",
+    "main.js": "/mahamifrontend/static/js/main.896441f4.js",
+    "static/media/Logo.png": "/mahamifrontend/static/media/Logo.53514a68dc3d6ff1e339.png",
+    "index.html": "/mahamifrontend/index.html",
+    "main.516b60bb.css.map": "/mahamifrontend/static/css/main.516b60bb.css.map",
+    "main.896441f4.js.map": "/mahamifrontend/static/js/main.896441f4.js.map"
   },
   "entrypoints": [
     "static/css/main.516b60bb.css",
-    "static/js/main.23dbcd15.js"
+    "static/js/main.896441f4.js"
   ]
 }
