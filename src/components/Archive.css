@@ -5,8 +5,7 @@
     align-items: center;
     gap: 10px; /* Space between boxes */
     padding: 10px;
-    background: #19647E;
-    min-width: 250px; /* Set width for the task bar */
+    background: #19647E; /* Set width for the task bar */
     overflow-x: auto; /* Enable scrolling if too many tasks */
     color: #FFC857;
     margin: 10px;
@@ -14,7 +13,7 @@
     border: 10px solid #19647E;
     font-family: "Reem Kufi", sans-serif;
     font-size: 30px;
-    width: 20%;
+    width: 20vw;
 }
 
 .task-box {
@@ -48,7 +47,6 @@ i {
     display: flex;
     width: 40px;
     gap: 5px;
-    cursor: pointer;
 }
 .archivedtext {
     display: flex;

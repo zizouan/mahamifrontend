@@ -18,7 +18,19 @@ export const Main = () => {
   const handleupdate = (id, title, completed, archived) => {
     /* const newArchived = archived === 1 ? 0 : 1; // or: !archived if using boolean
     const newCompleted = completed === 1 ? 0 : 1;
- */
+      */ const updatedTasks = tasks.map((task) =>
+      task.id === id
+        ? {
+            ...task,
+            id: id,
+            title: title,
+            completed: completed,
+            archived: archived,
+          }
+        : task
+    );
+    setTasks(updatedTasks);
+
     axios
       .patch("http://127.0.0.1:8000/api/mytasks", {
         id: id,
